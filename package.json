@@ -26,8 +26,16 @@
     "ai-agent",
     "browser-automation"
   ],
-  "author": "",
+  "author": "Mahbub Rahman",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MahbbRah/doubletake.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MahbbRah/doubletake/issues"
+  },
+  "homepage": "https://github.com/MahbbRah/doubletake#readme",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.0",
     "commander": "^13.1.0",
