@@ -1,0 +1,37 @@
+{
+  "name": "doubletake",
+  "version": "1.0.0",
+  "description": "DoubleTake — Multi-profile browser automation MCP server and CLI for cross-verifying software with Claude.ai web",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "doubletake": "./bin/doubletake.mjs",
+    "doubletake-mcp": "./bin/mcp-server.mjs"
+  },
+  "scripts": {
+    "start": "node bin/doubletake.mjs",
+    "mcp": "node bin/mcp-server.mjs",
+    "login": "node bin/doubletake.mjs login",
+    "status": "node bin/doubletake.mjs status",
+    "verify": "node bin/doubletake.mjs verify",
+    "test": "node test/smoke-test.js"
+  },
+  "keywords": [
+    "doubletake",
+    "playwright",
+    "claude",
+    "cross-verification",
+    "code-review",
+    "mcp",
+    "ai-agent",
+    "browser-automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "commander": "^13.1.0",
+    "playwright": "^1.50.1",
+    "zod": "^3.24.2"
+  }
+}
